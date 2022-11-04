@@ -25,9 +25,9 @@ export default function Home() {
               <h1 className='dark:text-teal-300'>developedBy</h1>
               <h1 className='text-red-800 dark:text-red-600'>Dilsekh</h1>
             </div>
-            <ul className='ml-5 flex items-center'>
+            <ul className='ml-5 mr-5 flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='text-gray-900 cursor-pointer text-2xl dark:text-teal-100' /></li>
-              <li><a href="Dilsekh Patnaik's Resume.pdf" className='bg-gray-800 px-4 text-white py-2 rounded-md ml-8 dark:bg-teal-300 dark:text-gray-900 mr-5'>Resume</a></li> 
+              <li><a href="Dilsekh Patnaik's Resume.pdf" className='bg-gray-800 px-4 text-white py-2 rounded-md ml-8 dark:bg-teal-300 dark:text-gray-900'>Resume</a></li> 
             </ul>
           </nav>
           <div className='text-center p-10'>
