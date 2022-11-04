@@ -26,13 +26,13 @@ export default function Home() {
               <h1 className='text-red-800 dark:text-red-600'>Dilsekh</h1>
             </div>
             <ul className='px-10 flex items-center'>
-              <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-teal-100' /></li>
+              <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='text-gray-900 cursor-pointer text-2xl dark:text-teal-100' /></li>
               <li><a href="Dilsekh Patnaik's Resume.pdf" className='bg-gray-800 px-4 text-white py-2 rounded-md ml-8 dark:bg-teal-300 dark:text-gray-900'>Resume</a></li> 
             </ul>
           </nav>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 dark:text-teal-100'>Dilsekh Patnaik</h2>
-            <h3 className='text-3xl py-2 text-gray-800 dark:text-teal-300'>Developer</h3>
+            <h3 className='text-3xl py-2 text-gray-800 dark:text-teal-200'>Developer</h3>
             <p className='text-md py-3 leading-8 max-w-xl mx-auto dark:text-teal-300'>An eager learner proficient in MERN Stack and
 armed with the required skill set to be propelled
 to higher positions</p>
@@ -47,7 +47,7 @@ to higher positions</p>
             <h3 className='text-4xl py-7 dark:text-teal-100'>Tech Stacks</h3>
           </div>
           <div className='text-5xl flex justify-center gap-16 text-gray-800 cursor-pointer dark:text-teal-300'>
-            <div className='m-auto text-5xl grid grid-cols-5 gap-10 justify-items-center text-gray-800 dark:text-teal-300'>
+            <div className='m-auto text-5xl grid grid-cols-5 gap-10 justify-items-center text-gray-900 dark:text-teal-300'>
             <SiCplusplus/>
             <SiJava/>
             <SiPython/>
@@ -75,10 +75,10 @@ to higher positions</p>
             <div className='text-3xl'>
               <h1>Connect</h1>
             </div>
-            <div className='text-center mx-40 text-2xl'>
+            <div className='text-center mx-40 text-2xl dark:text-teal-100'>
               <div><h1>With Me</h1></div>
             </div>
-            <div className='text-5xl mt-5 flex justify-center gap-16 text-gray-800 cursor-pointer dark:text-teal-300'>
+            <div className='text-5xl mt-5 flex justify-center gap-16 text-gray-900 cursor-pointer dark:text-teal-300'>
              <AiFillLinkedin onClick={() => window.open("https://www.linkedin.com/in/dilsekhpatnaik7/")}/>
              <AiFillTwitterCircle onClick={() => window.open("https://twitter.com/dilsekhed")}/>
              <AiOutlineGithub onClick={() => window.open("https://github.com/dilsekhpatnaik7")}/>
