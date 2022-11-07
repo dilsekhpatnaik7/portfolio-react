@@ -20,7 +20,7 @@ export default function Home() {
 
       <main className='bg-white dark:bg-gray-900'>
         <section>
-          <nav className='px-5 py-10 flex justify-between'>
+          <nav className='px-5 py-10 font-bold flex justify-between'>
             <div onClick={() => window.open("https://linktr.ee/dilsekhpatnaik7")} className='text-xl font-mono flex cursor-pointer'>
               <h1 className='dark:text-teal-300'>developedBy</h1>
               <h1 className='text-red-800 dark:text-red-600'>Dilsekh</h1>
